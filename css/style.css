@@ -15,7 +15,7 @@ html, body {
 
 
 /* tipografia */
-h1 {
+header h1 {
     display: inline;
     font-size: 3rem;
     font-weight: 900;
