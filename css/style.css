@@ -1,0 +1,157 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: #e8e8e8;
+}
+
+
+
+/* tipografia */
+h1 {
+    display: inline;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 1.15rem;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.arrow {
+    font-size: 18px;
+    color: #000;
+    display: inline-block;
+}
+
+p {
+    display: inline;
+}
+
+
+
+/* contenuto */
+header {
+    padding: 10px;
+    background-color: #fff;
+}
+
+main {
+    max-width: 768px;
+    margin: 40px auto 0 auto;
+}
+
+.intro {
+    border-radius: 8px  8px 0 0;
+    background-color: #fff;
+    padding: 14px 48px;
+    margin-bottom: 4px;
+}
+
+.body-task {
+    background-color: #fff;
+    padding: 32px 48px;
+    margin-top: 4px;
+    border-radius: 0 0 8px 8px;
+}
+
+.task-section {
+    margin-bottom: 32px;
+}
+
+.task-section:last-child {
+    margin-bottom: 0;
+}
+
+.task-section-item{
+    margin:0 0 16px 0;
+}
+
+
+/* centratura verticale */
+.v-center {
+    vertical-align: middle;
+}
+
+
+/* simboli vero-falso */
+.symbol {
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 8px;
+    text-align: center;
+}
+
+.true {
+    border: 1px #4caf50 solid;
+    color: #4caf50;
+}
+
+.false {
+    border: 1px #e44444 solid;
+    color: #e44444;
+}
+
+
+
+/* pulsanti */
+.btn-add-task {
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 8px;
+    font-size: 0.9rem;
+    background-color: #47adf1;
+}
+
+.btn-add-section {
+    color: #c5cbd0;
+    border-radius: 0.5rem;
+    border: 1px #c5cbd0 solid;
+    padding: 8px;
+    font-size: 0.9rem;
+    background-color: #fff;
+}
+
+.btn {
+    color: #fff;
+    border-radius: 0.8rem;
+    padding: 8px;
+    font-size: 0.75rem;
+    margin-left: 8px;
+}
+
+.btn-blue {
+    background-color: #47adf1;
+}
+
+.btn-green1 {
+    background-color: #38be7b;
+}
+
+.btn-green2 {
+    background-color: #8be044;
+}
+
+.btn-violet {
+    background-color: #9f47f1;
+}
+
+.btn-orange {
+    background-color: #f76826;
+}
+
+.btn-pink {
+    background-color: #bc38e4;
+}
