@@ -129,10 +129,10 @@ main {
 
 .btn {
     color: #fff;
-    border-radius: 0.8rem;
-    padding: 8px;
-    font-size: 0.75rem;
-    margin-left: 8px;
+    border-radius: 0.6rem;
+    padding: 6px 8px;
+    font-size: 0.6rem;
+    margin-left: 2px;
 }
 
 .btn-blue {
