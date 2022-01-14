@@ -25,11 +25,12 @@ h3 {
     font-size: 1.15rem;
     font-weight: 900;
     margin-bottom: 8px;
+    color: #444851;
 }
 
 .arrow {
     font-size: 18px;
-    color: #000;
+    color: #444851;
     display: inline-block;
 }
 
